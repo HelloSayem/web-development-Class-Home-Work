@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nature</title>
+  </head>
+  <body>
+    <style>
+      .btn {
+        padding: 10px 20px;
+        font-size: 15px;
+        font-weight: 550;
+        border: none;
+        background-color: rgb(70, 66, 66);
+        color: antiquewhite;
+      }
+      h1 {
+        text-align: center;
+        font-size: 60px;
+        color: rgb(107, 147, 156);
+        text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      }
+      h2 {
+        color: rgb(70, 66, 66);
+      }
+      .box {
+        margin: auto;
+        background-color: rgb(194, 216, 221);
+        height: auto;
+        width: 600px;
+        padding: 40px;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      /* responsibe  */
+      @media (max-width: 700px) {
+        .box {
+          margin: auto;
+          background-color: rgb(194, 216, 221);
+          height: auto;
+          width: 400px;
+          padding: 38px;
+        }
+        h1 {
+          font-size: 50px;
+        }
+      }
+
+      @media (max-width: 550px) {
+        .box {
+          margin: auto;
+          background-color: rgb(194, 216, 221);
+          height: auto;
+          width: 300px;
+          padding: 20px;
+        }
+        h1 {
+          font-size: 40px;
+        }
+        h2 {
+          font-size: 20px;
+        }
+        p {
+          font-size: 13px;
+        }
+        .btn {
+          padding: 5px 10px;
+          font-size: 10px;
+          font-weight: 550;
+        }
+      }
+      @media (max-width: 450px) {
+        h1 {
+          font-size: 35px;
+        }
+      }
+      @media (max-width: 380px) {
+        h1 {
+          font-size: 30px;
+        }
+      }
+      @media (max-width: 350px) {
+        h1 {
+          font-size: 25px;
+        }
+      }
+    </style>
+    <main class="blog">
+      <h1>Welcome to Nature blog</h1>
+      <div class="box">
+        <img src="assats/Nature.avif" alt="" />
+        <h2><u>Nature</u></h2>
+        <p>
+          <b>Nature </b>is an inherent character or constitution, particularly
+          of the ecosphere or the universe as a whole. In this general sense
+          nature refers to the laws, elements and phenomena of the physical
+          world, including life.
+          <span style="color: rgb(74, 100, 74)"
+            ><b><u>Although humans</u></b></span
+          >
+          are part of nature, human activity or humans as a whole are often
+          described as at times at odds, or outright separate and even superior
+          to nature.
+        </p>
+        <a href="https://en.wikipedia.org/wiki/Nature"
+          ><button class="btn">Learn More ></button></a
+        >
+      </div>
+    </main>
+  </body>
+</html>
