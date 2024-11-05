@@ -1,0 +1,160 @@
+/* Roboto  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* Golobal work's stert  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* Golobal work's end */
+/* header stert  */
+.nav-bg {
+  text-align: center;
+  background-color: #326155;
+  width: auto;
+  height: 319px;
+}
+.nav-bg img {
+  margin: 3.7rem 0rem 3.7rem;
+}
+.nav-bg h1 {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700;
+}
+/* header end  */
+/* main stert  */
+/* main blog stert  */
+.main-blog {
+  margin: 5rem 0rem 5rem 0rem;
+}
+.blog {
+  margin: auto;
+  background-color: #d7f2ec;
+  width: 583px;
+  height: 604px;
+  padding: 4.2rem;
+}
+.blog h2 {
+  color: #326155;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 3.5rem 0rem 2rem 0rem;
+}
+.blog p {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 2.8rem;
+}
+.blog a {
+  background-color: #326155;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 1rem 15rem;
+}
+/* main blog end */
+/* main end  */
+/* footer setrt    */
+footer {
+  background-color: #326155;
+  height: 62px;
+}
+footer h3 {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 2rem;
+}
+/* footer end  */
+
+/* responsiv  */
+@media (max-width: 600px) {
+  .nav-bg h1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .blog {
+    margin: auto;
+    background-color: #d7f2ec;
+    width: 500px;
+    height: 530px;
+    padding: 4.2rem;
+  }
+  .blog-img {
+    width: 400px;
+  }
+  .blog h2 {
+    color: #326155;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 3.5rem 0rem 2rem 0rem;
+  }
+  .blog p {
+    color: #000000;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 2.8rem;
+  }
+  .blog a {
+    background-color: #326155;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 1rem 10rem;
+  }
+}
+@media (max-width: 600px) {
+  .nav-bg h1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .blog {
+    margin: auto;
+    background-color: #d7f2ec;
+    width: 500px;
+    height: 530px;
+    padding: 4.2rem;
+  }
+  .blog-img {
+    width: 400px;
+  }
+  .blog h2 {
+    color: #326155;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 3.5rem 0rem 2rem 0rem;
+  }
+  .blog p {
+    color: #000000;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 2.8rem;
+  }
+  .blog a {
+    background-color: #326155;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 1rem 10rem;
+  }
+}

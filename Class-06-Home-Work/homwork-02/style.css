@@ -1,0 +1,351 @@
+/* Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Global work stert  */
+/* Global work stert  */
+
+:root {
+  /* font's */
+  /* --poppins: "Poppins", sans-serif; */
+
+  /* color's */
+  --pest-color: #0a8080;
+  --White: #fefff5;
+  --black: #000000;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+.btn {
+  background-color: var(--pest-color);
+  color: var(--White);
+  padding: 0.8rem 4rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  border-radius: 1rem;
+}
+/* Global work end  */
+/* Global work end  */
+
+/* header stert / hero section stert */
+.logo {
+  margin: 3.3rem 0rem 2.7rem 0rem;
+}
+.hero-section {
+  text-align: center;
+  background-color: var(--White);
+  width: auto;
+  height: 90.5rem;
+}
+.hero h1 {
+  color: var(--pest-color);
+  font-size: 4.8rem;
+  font-weight: 700;
+  margin: 0rem 0rem 2.6rem 0rem;
+}
+.hero p {
+  color: #000000;
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin: 0rem 0rem 2.7rem 0rem;
+}
+.hero button {
+  margin-bottom: 4rem;
+}
+
+/*header end / hero section End */
+
+/*  text blog stert   */
+.blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blog h2 {
+  text-align: center;
+  color: var(--pest-color);
+  font-size: 3.6rem;
+  font-weight: 700;
+  margin: 6.5rem 0rem 7.8rem 0rem;
+}
+.blog-text h3 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--black);
+}
+.blog-text p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  margin: 1.6rem 0rem 2.2rem 0rem;
+}
+.text-box {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  background-color: var(--White);
+  width: 942px;
+  height: 239px;
+  padding: 4rem;
+  border-radius: 1rem;
+  margin-bottom: 6rem;
+}
+/*  text blog End   */
+
+/* footer stert  */
+footer {
+  background-color: var(--pest-color);
+  color: var(--White);
+  text-align: center;
+  margin-top: 2.6rem;
+  padding: 1.4rem;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+/* footer End */
+
+/* responsiv  */
+@media (max-width: 950px) {
+  html {
+    font-size: 55.5%;
+  }
+  .text-box {
+    width: 700px;
+    height: 240px;
+    padding: 4rem;
+    border-radius: 1rem;
+    margin-bottom: 6rem;
+  }
+}
+@media (max-width: 730px) {
+  html {
+    font-size: 50.5%;
+  }
+  .text-box {
+    background-color: var(--White);
+    width: 600px;
+    height: 180px;
+    padding: 4rem;
+    border-radius: 1rem;
+    margin-bottom: 6rem;
+  }
+  .blog h2 {
+    margin: 9.5rem 0rem 7.8rem 0rem;
+  }
+  .blog-text h3 {
+    font-size: 1.9rem;
+  }
+  .blog-text p {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 670px) {
+  .hero h1 {
+    font-size: 4.3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .bg-img {
+    width: 100%;
+  }
+  .logo {
+    width: 110px;
+    margin: 1rem 0rem 0.8rem 0rem;
+  }
+
+  .hero h1 {
+    font-size: 4.1rem;
+  }
+  html {
+    font-size: 45.5%;
+  }
+  .text-box {
+    background-color: var(--White);
+    width: 500px;
+    height: 180px;
+    padding: 4rem;
+    border-radius: 1rem;
+    margin-bottom: 6rem;
+  }
+  .blog h2 {
+    margin: 15rem 0rem 7.8rem 0rem;
+  }
+  .blog-text h3 {
+    font-size: 1.9rem;
+  }
+  .blog-text p {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .logo {
+    width: 100px;
+    margin: 1rem 0rem 0.8rem 0rem;
+  }
+
+  .hero h1 {
+    font-size: 4.1rem;
+  }
+  html {
+    font-size: 40.5%;
+  }
+  .text-box {
+    background-color: var(--White);
+    width: 400px;
+    height: 150px;
+    padding: 4rem;
+    border-radius: 1rem;
+    margin-bottom: 6rem;
+  }
+  .blog h2 {
+    margin: 18rem 0rem 7.8rem 0rem;
+  }
+  .blog-text h3 {
+    font-size: 1.7rem;
+  }
+  .blog-text p {
+    font-size: 1.2rem;
+  }
+  .btn {
+    background-color: var(--pest-color);
+    color: var(--White);
+    padding: 0.7rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    border-radius: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo {
+    width: 90px;
+    margin: 1rem 0rem 0.6rem 0rem;
+  }
+
+  .hero h1 {
+    font-size: 4.1rem;
+  }
+  html {
+    font-size: 35.5%;
+  }
+  .text-box {
+    background-color: var(--White);
+    width: 370px;
+    height: 120px;
+    padding: 4rem;
+    border-radius: 1rem;
+    margin-bottom: 6rem;
+  }
+  .blog h2 {
+    margin: 24rem 0rem 6.8rem 0rem;
+  }
+  .blog-text h3 {
+    font-size: 1.7rem;
+  }
+  .blog-text p {
+    font-size: 1.2rem;
+  }
+  .btn {
+    background-color: var(--pest-color);
+    color: var(--White);
+    padding: 0.7rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    border-radius: 1rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .logo {
+    width: 90px;
+    margin: 1rem 0rem 0.6rem 0rem;
+  }
+
+  .hero h1 {
+    font-size: 4.1rem;
+  }
+  html {
+    font-size: 35.5%;
+  }
+  .text-box {
+    background-color: var(--White);
+    width: 340px;
+    height: 130px;
+    padding: 4rem;
+    border-radius: 1rem;
+    margin-bottom: 6rem;
+  }
+  .blog h2 {
+    margin: 24rem 0rem 6.8rem 0rem;
+  }
+  .blog-text h3 {
+    font-size: 1.7rem;
+  }
+  .blog-text p {
+    font-size: 1.2rem;
+  }
+  .btn {
+    background-color: var(--pest-color);
+    color: var(--White);
+    padding: 0.7rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    border-radius: 1rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .logo {
+    width: 80px;
+    margin: 1rem 0rem 0.6rem 0rem;
+  }
+
+  .hero h1 {
+    font-size: 3.5rem;
+  }
+  html {
+    font-size: 35.5%;
+  }
+  .text-box {
+    background-color: var(--White);
+    width: 310px;
+    height: 140px;
+    padding: 4rem;
+    border-radius: 1rem;
+    margin-bottom: 6rem;
+  }
+  .blog h2 {
+    margin: 24rem 0rem 6.8rem 0rem;
+  }
+  .blog-text h3 {
+    font-size: 1.7rem;
+  }
+  .blog-text p {
+    font-size: 1.2rem;
+  }
+  .btn {
+    background-color: var(--pest-color);
+    color: var(--White);
+    padding: 0.7rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    border-radius: 1rem;
+  }
+}
